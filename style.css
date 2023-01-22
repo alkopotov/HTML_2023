@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+.banner {
+  background-color: rgb(71, 81, 96);
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  width: 100vw;
+  height: 220px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 35px;
+}
+ul {
+  list-style: none;
+  color: white;
+}
+ ul li::before{
+  content: "✓";
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 900;
+ }
+
+.pict1 {
+  width: 35vw;
+  height: 180px;
+  background-color: white;
+  margin-right: 100px;
+  border-radius: 3px;
+}
+.descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.screens {
+  padding-top: 30px;
+  color: rgb(71, 81, 96);
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 1fr 2fr 2fr;
+}
+.screen_item {
+  display: flex;
+  padding: 5px 15px 0;
+  gap: 15px;
+
+}
+.screen_item:first-child {
+  justify-content: center;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.pict2 {
+  height: 120px;
+  width: 250px;
+  background-color: rgb(71, 81, 96);
+  border-radius: 3px;
+}
+.buy {
+  width: 80vw;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 60px auto;
+}
+.buy_item {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(71, 81, 96); */
+  align-items: center;
+  justify-content: end;
+}
+.buy_item:first-child {
+  display: flex;
+  grid-row: 1/2;
+  grid-column: 1/4;
+  justify-content: center;
+  background-color: #fff;
+  color: rgb(71, 81, 96);
+}
+.price {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-size: 30px;
+  color: rgb(71, 81, 96);
+  background-color: white;
+}
+.product_type {
+  color: white;
+  font-size: 22px;
+  bottom: 0;
+  border: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 81, 96);
+}
+.buy_content {
+  width: 88%;
+  background-color: rgb(71, 81, 96);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(71, 81, 96);
+  align-items: center;
+
+}
+ol {
+  width: 80%;
+  color: white;
+  text-align: left;
+  margin-left: 0;
+  padding-inline-start: 30px;
+  font-size: 14px;
+  font-weight: 300;
+}
+li {
+  padding-top: 8px;
+  padding-left: 2px;
+  padding-right: 8px;
+}
+.button {
+  text-decoration: none;
+  background-color: white;
+  padding: 3% 35% 3%;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: rgb(71, 81, 96);
+}
+footer {
+  background-color: rgb(71, 81, 96);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contacts {
+  width: 65vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  grid-template-rows: 100px auto;
+}
+.contact_item:first-child {
+  display: flex;
+  justify-content: center;
+  color: white;
+  grid-column: 1/3;
+}
+.contact_item:nth-child(2) {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  color: rgb(71, 81, 96);
+}
+.small_field {
+  font-family: inherit;
+  width: 80%;
+  height: 40px;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  color: rgb(71, 81, 96);
+}
+textarea {
+  font-family: inherit;
+  width: 80%;
+  height: 150px;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  color: rgb(71, 81, 96);
+  resize: none;
+  padding-top:15px;
+  border-radius: 3px;
+  border:0;
+}
+
+button {
+
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 8px;
+  border: none;
+  background-color: white;
+  color: rgb(71, 81, 96);
+  font-weight: 600;
+  border-radius: 3px;
+  width:25%;
+}
+.phone::before {
+  content: "📞 ";
+  color: white;
+}
+.intouch {
+  color: white;
+}
+
+.sm {
+  padding-top: 30px;
+}
+.sm_img {
+  height: 50px;
+  padding-left: 5px;
+}
